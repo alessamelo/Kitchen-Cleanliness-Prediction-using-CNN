@@ -1,0 +1,47 @@
+{
+    "model_name": "cnn_augmented",
+    "accuracy": 0.9347826086956522,
+    "precision": 0.9642857142857143,
+    "recall": 0.9310344827586207,
+    "f1_score": 0.9473684210526315,
+    "auc": 0.9898580121703854,
+    "inference_time_seconds": 0.5247910022735596,
+    "num_test_samples": 46,
+    "classification_report": {
+        "0.0": {
+            "precision": 0.8888888888888888,
+            "recall": 0.9411764705882353,
+            "f1-score": 0.9142857142857143,
+            "support": 17.0
+        },
+        "1.0": {
+            "precision": 0.9642857142857143,
+            "recall": 0.9310344827586207,
+            "f1-score": 0.9473684210526315,
+            "support": 29.0
+        },
+        "accuracy": 0.9347826086956522,
+        "macro avg": {
+            "precision": 0.9265873015873016,
+            "recall": 0.936105476673428,
+            "f1-score": 0.9308270676691729,
+            "support": 46.0
+        },
+        "weighted avg": {
+            "precision": 0.9364216701173222,
+            "recall": 0.9347826086956522,
+            "f1-score": 0.935142203334423,
+            "support": 46.0
+        }
+    },
+    "confusion_matrix": [
+        [
+            16,
+            1
+        ],
+        [
+            2,
+            27
+        ]
+    ]
+}

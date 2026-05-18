@@ -1,0 +1,47 @@
+{
+    "model_name": "mobilenet3_no_augmented",
+    "accuracy": 0.3695652173913043,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0,
+    "auc": 0.4645030425963489,
+    "inference_time_seconds": 1.8657526969909668,
+    "num_test_samples": 46,
+    "classification_report": {
+        "0.0": {
+            "precision": 0.3695652173913043,
+            "recall": 1.0,
+            "f1-score": 0.5396825396825397,
+            "support": 17.0
+        },
+        "1.0": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 29.0
+        },
+        "accuracy": 0.3695652173913043,
+        "macro avg": {
+            "precision": 0.18478260869565216,
+            "recall": 0.5,
+            "f1-score": 0.2698412698412698,
+            "support": 46.0
+        },
+        "weighted avg": {
+            "precision": 0.13657844990548204,
+            "recall": 0.3695652173913043,
+            "f1-score": 0.199447895100069,
+            "support": 46.0
+        }
+    },
+    "confusion_matrix": [
+        [
+            17,
+            0
+        ],
+        [
+            29,
+            0
+        ]
+    ]
+}
