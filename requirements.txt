@@ -1,0 +1,22 @@
+tensorflow
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+opencv-python
+pillow
+imutils
+jupyter
+notebook
+ipykernel
+tqdm
+albumentations
+keras
+h5py
+protobuf
+scipy
+imageio
+python-dotenv
+requests
+tensorflow tensorboard
